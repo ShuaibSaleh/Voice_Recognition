@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Voice Recognation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- <script src="https://cdn.plot.ly/plotly-2.16.5.min.js"></script> -->
+  </head>
+  <body>
+    <h1>Voice Recognation</h1>
+  	<button class="Record" id="recordButton">Record</button>
+  	<button class="Stop" id="stopButton" disabled>Stop</button>
+    <br>
+    <audio id="recordedAudio" src="" ></audio>
+    <br>
+    <div class="design_of_prediction"> 
+    <div class="predict">
+    <div id="formats">  {{prediction}}</div>
+    </div>
+    </div>
+    <div class="eposter">
+      <div class = "posterobjects"><img id="barchart" src= " "    width="480" height="420" class = "hidden"></div>
+      <div class = "posterobjects"><img id="signal" src= " "    width="480" height="420" class = "hidden"></div>
+      <div class = "posterobjects"><img id="spec" src= " "    width="480" height="420" class = "hidden"></div>
+    </div>
+    <script src="{{ url_for('static', filename='js/recorder.js') }}"></script>
+  	<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  </body>
+</html>

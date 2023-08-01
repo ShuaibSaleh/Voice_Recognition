@@ -1,0 +1,123 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 900px;}
+head {
+	background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+head .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+	
+}
+h1{
+	font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    position: relative;
+    height: auto;
+    text-align: center;
+}
+
+.Record{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	box-shadow: 0 3px 20px 0 #0000003b;
+	position: fixed;
+	
+}
+.Record:hover{
+	background-color: red;
+}
+
+.Stop{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	box-shadow: 0 3px 20px 0 #0000003b;
+	position: fixed;
+}
+.Stop:hover{
+	background-color: blue;
+}
+.hidden {
+	display : none;
+	}
+.class{
+	transform: translateX(150%);
+}
+audio{
+	transform:translateY(90px)
+}
+
+
+/* .design_of_prediction{
+	position: relative;
+	text-align: center;
+} */
+.predict{
+	position: relative;
+	text-align: center;
+
+	width: 500px;
+	height: 70px;
+	border-radius: 40px;
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: rgba(215, 202, 202, 0.642);
+	box-shadow: 0 3px 20px 0 #0000003b;
+	transform: translateX(520px);
+	font-family: 'Times New Roman', Times, serif;
+	font-size: x-large;
+
+	
+
+}
+@media screen and (max-width:600px){
+	button{
+		text-align: center;
+	}
+	
+}
+.hidden{
+	display: none;
+}
+.eposter {
+	display: flex;
+  }
+  
+  .posterobjects {
+	flex: 33.33%;
+	padding: 5px;
+  }
+html, body {
+    max-width: 100%;
+	max-height: 100%;
+    overflow-x: hidden;
+	overflow-y: hidden;
+}
